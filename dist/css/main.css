@@ -252,6 +252,9 @@ main {
   .projects-item-iframe iframe {
     min-height: 300px; }
 
+#projects-item-2 iframe {
+  min-width: 90%; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
