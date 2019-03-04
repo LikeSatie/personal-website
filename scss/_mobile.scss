@@ -91,6 +91,7 @@
 @include mediaSm {
   main {
     padding: 2rem;
+
     #home h1 {
       margin-top: 10vh;
     }
@@ -99,12 +100,12 @@
       margin-top: 1rem;
       font-size: 5rem;
     }
+
+    .projects {
+      grid-template-columns: 1fr;
+    }
   }
 
-  .projects {
-    grid-template-columns: 1fr;
-  }
-  ﻿
   // раздел 'о себе'
   .about-info {
     .bio {
