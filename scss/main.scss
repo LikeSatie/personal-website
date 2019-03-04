@@ -123,6 +123,7 @@ main {
 
   img {
     width: 100%;
+    background-size: contain;
     border: solid 1px #fff;
 
     &:hover {
@@ -130,6 +131,12 @@ main {
       border-color: $secondary-color;
       @include easeOut;
     }
+  }
+
+  .projects-item-img {
+    display: block;
+    width: 300px;
+    height: 300px;
   }
 }
 
