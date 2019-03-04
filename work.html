@@ -69,6 +69,7 @@
               <div class="projects-item-iframe">
                 <iframe
                   src="https://likesatie.github.io/js-simple-three-round-game/"
+                  onload="setIframeHeight(this.id)"
                   frameborder="0"
                 ></iframe>
               </div>
@@ -96,6 +97,7 @@
               <div class="projects-item-iframe">
                 <iframe
                   src="https://likesatie.github.io/hj24-photoApp/"
+                  onload="setIframeHeight(this.id)"
                   frameborder="0"
                 ></iframe>
               </div>
@@ -119,12 +121,15 @@
           <div id="projects-item-3" class="modal-window">
             <div class="modal-window-flex-container">
               <a href="#" title="Close" class="modal-close">Закрыть</a>
-              <a href="#" title="Close" class="modal-close">Close</a>
               <h1>Конструктор надписи на футболку.</h1>
               <div class="projects-item-iframe">
                 <iframe
                   src="https://likesatie.github.io/t-shirt-constructor/"
+                  onload="setIframeHeight(this.id)"
                   frameborder="0"
+                  width="560"
+                  height="315"
+                  allowfullscreen
                 ></iframe>
               </div>
             </div>
@@ -164,5 +169,6 @@
       Все права защищены. Карнацкий Дмитрий KSKY&copy 2019
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/iFrameHandler.js"></script>
   </body>
 </html>
